@@ -1,0 +1,6 @@
+name = Vmlyr Itau Bot
+description = Provides a bot chat for Itau.
+core = 7.x
+version = 1.0
+
+dependencies[] = entity
