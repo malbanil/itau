@@ -69,7 +69,8 @@ function _vmlyr_itau_bot_callback(){
 
   $build['send_message'] = [
     '#type' => 'submit',
-    '#id' => 'send-message'
+    '#id' => 'send-message',
+    '#value' => t('Send')
   ];
   return $build;
 }
