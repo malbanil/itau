@@ -1,0 +1,21 @@
+node_modules
+npm-debug.log
+
+# Ignore paths that contain generated content.
+files/
+sites/*/files
+sites/*/private
+sites/*/translations
+
+# Ignore default text files
+robots.txt
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/INSTALL*.txt
+/LICENSE.txt
+/MAINTAINERS.txt
+/UPGRADE.txt
+/README.txt
+
+/npm-debug.log
+npm-debug.log
