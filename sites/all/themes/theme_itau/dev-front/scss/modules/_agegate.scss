@@ -1,0 +1,156 @@
+body {
+	&.page-agegate {
+		// Main Age wrapper 
+		#age_checker {
+			
+			.agegate-container {
+				
+				// Hide unncesary copyright
+				
+				#agegate_copyright_text {
+					
+				}
+
+				// Brand
+				.logo {
+					
+					img {
+						display: inline-block;
+					}
+				}
+
+				// Age content
+				#block-system-main {
+					
+					// Top message
+					#age_checker_header_message {
+						
+						.agegate-title-1 {
+						
+						}
+					}
+
+					// Form
+					#age_checker_widget {
+						form {
+							&#sabm-age-gate-form {
+								
+								// Select default styles
+								.form-type {
+									&-select {
+										
+										label {
+											
+										}
+										select {
+											
+										}								
+										&::after {
+											content: "";
+											display: block;
+											@include iconSVG('../images/icons/caret_down.svg', 19px);
+											width: rem(19px);
+											height: rem(11px);
+											position: absolute;
+											right: rem(15px);
+											top: rem(10px);
+										}
+									}
+								}
+
+								// Field schemma
+								.form-item {
+									&-list-of-countries {
+										
+																				
+									}
+									// Date									
+
+									&-day,
+									&-month,
+									&-year {
+										label {
+											display: none;
+										}
+										
+										input {
+											
+											@include placeholder {
+												
+											}
+
+											@include mq('md') {
+																					
+											}
+										}
+
+										@include mq('md') {
+																				
+										}
+									}
+
+									&-month {
+										@include mq('md') {
+
+										}
+									}
+
+									// Accept checkbox
+									&-remember-me {
+										
+										.ab-inbev-remember-me,
+										.control-label {
+											
+											@include mq('md') {
+												
+											}
+										}
+
+										.ab-inbev-remember-me {
+											@include mq('md') {
+											}
+											span {
+												a {
+												}
+											}
+											@include mq('md') {
+											}
+										}
+									}
+								}
+
+
+								// CTAS
+								#edit-submit {
+									
+									@include mq('md') {
+										
+									}
+
+									@include mq('tb') {
+										
+									}
+								}
+
+								.age_checker_facebook_validate {
+									
+									@include mq('md') {
+										
+									}
+
+									@include mq('tb') {										
+										
+									}
+
+									.fb_iframe_widget {
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
